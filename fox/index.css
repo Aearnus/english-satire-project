@@ -1,0 +1,22 @@
+body {
+	width: 100%;
+}
+articleContainer {
+	margin: 0 auto;
+	display: block;
+	width: 50%;
+}
+articleTitle {
+	display: inline-block;
+	font-size: 4em;
+	font-weight: bold;
+}
+articleSubTitle {
+	display: inline-block;
+	float: right;
+	font-style: italic;
+}
+main {
+	margin-top: 100px;
+	font-weight: 100;
+}
