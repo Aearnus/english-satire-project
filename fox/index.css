@@ -54,3 +54,35 @@ footer {
 presidentContainer {
 	display: inline;
 }
+commentContainer {
+	margin: 0 auto;
+	display: block;
+	width: 70%;
+}
+commentAuthor {
+	font-family: 'Patua One', cursive;
+	font-size: 18pt;
+	color: gray;
+	text-decoration: underline;
+}
+commentAuthor::after {
+	content: " says:";
+}
+comment {
+	display: block;
+	padding-top: 30px;
+}
+commentBody {
+	display: block;
+	font-family: 'Rokkitt', serif;
+	font-size: 16pt;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+commentDate {
+	display: block;
+	font-family: 'Patua One', cursive;
+	font-size: 12pt;
+	color: gray;
+	font-style: italic;
+}
