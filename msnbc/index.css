@@ -44,6 +44,7 @@ articleTitle {
 	font-size: 4em;
 	font-weight: 900;
 	font-family: 'Rubik', sans-serif;
+	z-index: -10;
 }
 articleSubTitle {
 	display: inline-block;
@@ -89,18 +90,18 @@ otherStoriesContainer {
 	clear: both;
 	float: left;
 }
-.commentTitle{ 
+.commentTitle { 
 	position: absolute;
 	left: 65%;
 	top: 200px;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	font-size: 20pt;
+	font-size: 18pt;
 	background: #0066cc; 
-	padding: 60px 0px 60px 60px;
+	padding: 60px 60px 60px 60px;
 	width: calc(100% - 65% - 5%);
-	border-right: 1000px solid #0066cc;
+	z-index: -1
 }
 commentContainer {
 	display: block;
