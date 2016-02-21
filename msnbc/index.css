@@ -79,7 +79,10 @@ footer {
 	display: block;
 	width: 100%;
 	height: 250px;
-	background: url();
+	background: url("footer-logo.png");
+	background-repeat: no-repeat;
+	background-size: auto 80%;
+	background-position: 50% 50%;
 	clear: both;
 }
 otherStoriesContainer {
