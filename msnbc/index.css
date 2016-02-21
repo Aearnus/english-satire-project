@@ -4,7 +4,7 @@ body {
 	margin: 0 0 0 0;
 }
 bodyContainer {
-	width: 70%;
+	width: 90%;
 	display: block;
 	margin: 0 auto;
 }
@@ -89,6 +89,19 @@ otherStoriesContainer {
 	clear: both;
 	float: left;
 }
+.commentTitle{ 
+	position: absolute;
+	left: 65%;
+	top: 200px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20pt;
+	background: #0066cc; 
+	padding: 60px 0px 60px 60px;
+	width: calc(100% - 65% - 5%);
+	border-right: 1000px solid #0066cc;
+}
 commentContainer {
 	display: block;
 	float: left;
@@ -98,9 +111,8 @@ commentContainer {
 }
 commentAuthor {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 18pt;
-	color: gray;
-	text-decoration: underline;
+	font-size: 12pt;
+	font-style: italic;
 }
 commentAuthor::before {
 	content: "by ";
