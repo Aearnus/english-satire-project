@@ -128,3 +128,14 @@ commentBody {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+quote {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	font-style: italic;
+	background-color: #CCCCCC;
+	background-image: url("quote.png");
+	background-repeat: no-repeat;
+	background-size: auto 80%;
+	padding: 40px 40px 40px 40px;
+}
