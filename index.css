@@ -1,0 +1,62 @@
+.cover {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: #000000;
+	visibility: hidden;
+	opacity: 0;
+	-moz-transition: opacity 5s;
+	-o-transition: opacity 5s;
+	-ms-transition: opacity 5s;
+	-webkit-transition: opacity 5s;
+	transition: opacity 5s;
+	z-index: 10;
+	text-align: center;
+}
+videoContainer {
+	display: block;
+}
+.videoImage {
+	width: 80%;
+	display: inline-block;
+}
+.videoTitle {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	color: #44bbff;
+}
+.videoViews {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 2.5em;
+	color: #FFFFFF;
+}
+.page {
+	width: 50%;
+	height: 100%; 
+	float: left;
+	border: 0;
+	z-index: -10;
+}
+.final {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: #000000;
+	visibility: hidden;
+	opacity: 0;
+	font-family: 'Kalam', cursive;
+	color: #FFF;
+	-moz-transition: opacity 5s;
+	-o-transition: opacity 5s;
+	-ms-transition: opacity 5s;
+	-webkit-transition: opacity 5s;
+	transition: opacity 5s;
+	z-index: 10;
+	text-align: center;
+}

@@ -1,9 +1,75 @@
+<meta charset="utf-8">
 <html>
 	<head>
 		<title>
 			Tyler's Satire Project
 		</title>
+		<link rel="stylesheet" type="text/css" href="index.css"></link>
+		<link href='https://fonts.googleapis.com/css?family=Kalam:400,700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript">
+		n = 0;
+		views = function() {
+			var vE = document.getElementsByClassName("videoViews");
+			for (var i = 0; i < vE.length; i++) {
+				vE[i].innerHTML = "Views: " + n;
+			}
+			n += 999;
+		}
+		fade = function() {
+			document.getElementsByClassName("cover")[0].style.visibility='visible';
+			document.getElementsByClassName("cover")[0].style.opacity='1';
+			window.setInterval(views, 100);
+		}
+		document.addEventListener("keydown", fade, true);
+		fadeAgain = function() {
+			document.getElementsByClassName("final")[0].style.visibility='visible';
+			document.getElementsByClassName("final")[0].style.opacity='1';
+		}
+		document.getElementsByClassName("cover")[0].addEventListener("click", fade);
+		</script>
 	</head>
-	<body style="width: 100%;overflow-x: hidden;margin: 0 0 0 0;">
-		<iframe src="fox/index.html" style="width: 50%; height: 100%; float: left; border: 0;"></iframe>
-		<iframe src="msnbc/index.html" style="width: 50%; height: 100%; float: left; border: 0;"></iframe>
+	<body>
+		<div class="final">
+			Don't let sensationalist media influence you.
+		</div>
+		<div class="cover">
+			<div style="position: absolute; width: 100%; top: 50%; transform: translateY(-50%); display: flex; flex-direction: row;">
+				<videoContainer>
+					<img class="videoImage" src="video0.png"/>
+					<br>
+					<span class="videoTitle">
+						LAST WEEK TONIGHT: British "Revolts"
+					</span>
+					<br>
+					<span class="videoViews">
+						Views: 0
+					</span>
+				</videoContainer>
+				<videoContainer>
+					<img class="videoImage" src="video1.png"/>
+					<br>
+					<span class="videoTitle">
+						The Late Show. Communism in <i> my </i> UK?
+					</span>
+					<br>
+					<span class="videoViews">
+						Views: 0
+					</span>
+				</videoContainer>
+				<videoContainer>
+					<img class="videoImage" src="video2.png"/>
+					<br>
+					<span class="videoTitle">
+						The Daily Show - England?
+					</span>
+					<br>
+					<span class="videoViews">
+						Views: 0
+					</span>
+				</videoContainer>
+			</div>
+		</div>
+		<iframe src="fox/index.html" class="page"></iframe>
+		<iframe src="msnbc/index.html" class="page"></iframe>
+	</body>
+</html>
