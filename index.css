@@ -52,11 +52,12 @@ videoContainer {
 	opacity: 0;
 	font-family: 'Kalam', cursive;
 	color: #FFF;
+	font-size: 8em;
 	-moz-transition: opacity 5s;
 	-o-transition: opacity 5s;
 	-ms-transition: opacity 5s;
 	-webkit-transition: opacity 5s;
 	transition: opacity 5s;
-	z-index: 10;
+	z-index: 15;
 	text-align: center;
 }

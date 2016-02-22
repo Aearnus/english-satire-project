@@ -25,7 +25,10 @@
 			document.getElementsByClassName("final")[0].style.visibility='visible';
 			document.getElementsByClassName("final")[0].style.opacity='1';
 		}
-		document.getElementsByClassName("cover")[0].addEventListener("click", fade);
+		function init(){
+			document.getElementsByClassName("cover")[0].addEventListener("click", fadeAgain);
+		}
+		window.onload = init;
 		</script>
 	</head>
 	<body>
