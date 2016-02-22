@@ -25,7 +25,7 @@ otherStory {
 	font-family: 'Open Sans', sans-serif; 
 	font-size: 16pt;
 	color: #FFFFFF;
-	width: 19%;
+	width: 28%;
 	height: 160pt;
 	background: #444444;
 	float: left;
@@ -88,20 +88,20 @@ footer {
 otherStoriesContainer {
 	margin: 0 auto;
 	display: block;
-	width: 70%;
+	width: 100%;
 	clear: both;
 	float: left;
 }
 .commentTitle { 
 	position: absolute;
-	left: 65%;
-	top: 200px;
+	left: calc(65% + 20px);
+	top: 220px;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 18pt;
 	background: #0066cc; 
-	padding: 60px 60px 60px 60px;
+	padding: 40px 40px 40px 40px;
 	width: calc(100% - 65% - 5%);
 	z-index: -1
 }
@@ -126,7 +126,7 @@ comment {
 }
 commentBody {
 	display: block;
-	font-family: 'Rokkitt', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16pt;
 	padding-top: 10px;
 	padding-bottom: 10px;
